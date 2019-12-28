@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-bitquran/precache-manifest.704262d05c11c78423f0fe75a8a6b14c.js"
+  "/react-bitquran/precache-manifest.6584512c3ac7805c4091e5819b9860da.js"
 );
 
 self.addEventListener('message', (event) => {

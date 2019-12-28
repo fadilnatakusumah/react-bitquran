@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-bitquran/static/css/main.ab4c871b.chunk.css",
-    "main.js": "/react-bitquran/static/js/main.ce63eaae.chunk.js",
-    "main.js.map": "/react-bitquran/static/js/main.ce63eaae.chunk.js.map",
+    "main.js": "/react-bitquran/static/js/main.72beb85b.chunk.js",
+    "main.js.map": "/react-bitquran/static/js/main.72beb85b.chunk.js.map",
     "runtime-main.js": "/react-bitquran/static/js/runtime-main.fcfc6b40.js",
     "runtime-main.js.map": "/react-bitquran/static/js/runtime-main.fcfc6b40.js.map",
     "static/css/2.5dbdccff.chunk.css": "/react-bitquran/static/css/2.5dbdccff.chunk.css",
-    "static/js/2.78225222.chunk.js": "/react-bitquran/static/js/2.78225222.chunk.js",
-    "static/js/2.78225222.chunk.js.map": "/react-bitquran/static/js/2.78225222.chunk.js.map",
+    "static/js/2.2d2af797.chunk.js": "/react-bitquran/static/js/2.2d2af797.chunk.js",
+    "static/js/2.2d2af797.chunk.js.map": "/react-bitquran/static/js/2.2d2af797.chunk.js.map",
     "index.html": "/react-bitquran/index.html",
-    "precache-manifest.704262d05c11c78423f0fe75a8a6b14c.js": "/react-bitquran/precache-manifest.704262d05c11c78423f0fe75a8a6b14c.js",
+    "precache-manifest.6584512c3ac7805c4091e5819b9860da.js": "/react-bitquran/precache-manifest.6584512c3ac7805c4091e5819b9860da.js",
     "service-worker.js": "/react-bitquran/service-worker.js",
     "static/css/2.5dbdccff.chunk.css.map": "/react-bitquran/static/css/2.5dbdccff.chunk.css.map",
     "static/css/main.ab4c871b.chunk.css.map": "/react-bitquran/static/css/main.ab4c871b.chunk.css.map",
-    "static/js/2.78225222.chunk.js.LICENSE": "/react-bitquran/static/js/2.78225222.chunk.js.LICENSE"
+    "static/js/2.2d2af797.chunk.js.LICENSE": "/react-bitquran/static/js/2.2d2af797.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.fcfc6b40.js",
     "static/css/2.5dbdccff.chunk.css",
-    "static/js/2.78225222.chunk.js",
+    "static/js/2.2d2af797.chunk.js",
     "static/css/main.ab4c871b.chunk.css",
-    "static/js/main.ce63eaae.chunk.js"
+    "static/js/main.72beb85b.chunk.js"
   ]
 }
