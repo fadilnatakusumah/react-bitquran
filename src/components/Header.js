@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled';
+import { withRouter } from 'react-router-dom';
 
 class Header extends React.Component {
   state = {
@@ -15,11 +16,15 @@ class Header extends React.Component {
     this.props.onClickTab(active);
   };
 
+  toHome = () => {
+    this.props.history.push('/');
+  }
+
   render() {
     return (
       <React.Fragment>
         <Upper>
-          <div>Quran</div>
+          <div onClick={this.toHome}>Quran</div>
         </Upper>
         <div className="tabs-style">
           <div className="tablist-style">
@@ -53,4 +58,4 @@ const Upper = styled('div')`
 
 `
 
-export default Header
+export default withRouter(Header)
