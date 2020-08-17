@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://api.alquran.cloud/v1"
+const API_URL = "https://api.alquran.cloud/v1"
 
 export default {
   getSurahs() {
