@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <BaseLayout>
+      <ToastContainer />
       <Router>
         <Switch>
           <Route exact path="/">

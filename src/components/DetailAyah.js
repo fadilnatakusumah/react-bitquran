@@ -2,9 +2,10 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faCopy, faPause } from '@fortawesome/free-solid-svg-icons'
 import styled from '@emotion/styled';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import * as clipboard from "clipboard-polyfill";
+import { css } from 'emotion';
 // import ReactAudioPlayer from 'react-audio-player';
 
 class DetailAyah extends React.Component {
@@ -57,12 +58,13 @@ class DetailAyah extends React.Component {
 
     clipboard.writeText(string);
     toast('Ayah copied', {
+      className: css({
+        color: 'black'
+      }),
       position: toast.POSITION.BOTTOM_CENTER,
       autoClose: 2000,
-      hideProgressBar: true,
+      hideProgressBar: false,
       closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
     });
     // Toastify({
     //   text: "Ayah copied",
@@ -83,7 +85,6 @@ class DetailAyah extends React.Component {
     const { copyText } = this;
     return (
       <div style={{ padding: '0 20px', width: '100%' }} key={`ayah_${ayah.number}`}>
-       <ToastContainer/>
         <AyahArabic>
           <div>{ayah.juz}:{ayah.number}</div>
           <div>{ayah.text}</div>
