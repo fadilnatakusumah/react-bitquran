@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82c5290ae23eae0a53f718be15d56155",
+    "revision": "8bbd281b814d739a96d95a6c0be970f0",
     "url": "/react-bitquran/index.html"
   },
   {
-    "revision": "d43ecc44e4272fa88a9b",
+    "revision": "a62a88dd295621afe936",
     "url": "/react-bitquran/static/css/2.5dbdccff.chunk.css"
   },
   {
-    "revision": "0381f4bcdc7b48d5cc0b",
+    "revision": "cd68524182420249c33e",
     "url": "/react-bitquran/static/css/main.f930901f.chunk.css"
   },
   {
-    "revision": "d43ecc44e4272fa88a9b",
-    "url": "/react-bitquran/static/js/2.2d2af797.chunk.js"
+    "revision": "a62a88dd295621afe936",
+    "url": "/react-bitquran/static/js/2.97bf95b7.chunk.js"
   },
   {
     "revision": "87984cad984dae3222b2a1d0861003a4",
-    "url": "/react-bitquran/static/js/2.2d2af797.chunk.js.LICENSE"
+    "url": "/react-bitquran/static/js/2.97bf95b7.chunk.js.LICENSE"
   },
   {
-    "revision": "0381f4bcdc7b48d5cc0b",
-    "url": "/react-bitquran/static/js/main.fc7cc199.chunk.js"
+    "revision": "cd68524182420249c33e",
+    "url": "/react-bitquran/static/js/main.b853bcf6.chunk.js"
   },
   {
     "revision": "9345f9683060e009e8fd",
