@@ -49,11 +49,11 @@ const Upper = styled('div')`
     height: 130px;
     line-height: 200px;
 
-    // @media (max-width:812px){
-    // line-height: 130px;
-    //   height: 35px;
-    //   font-size: 35px;
-    // }
+    @media (max-width:812px){
+      line-height: unset;
+      height: 35px;
+      font-size: 35px;
+    }
   }
 
 `
